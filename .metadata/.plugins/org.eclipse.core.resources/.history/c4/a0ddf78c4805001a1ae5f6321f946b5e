@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : playc.cpp
+// Author      : Mubarak Mikail
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "playc.h"
+using namespace std;
+
+int main(int argc, char * argv[])
+{
+  printString(argv[0]);
+  return 0;
+//	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+//	return 0;
+}
+
+void printString(char * str)
+{
+  cout << "The string is :"<< str << endl;
+  cout<<"The length of the string is: "<< strlen(str)<< endl;
+}
