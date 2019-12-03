@@ -1,0 +1,89 @@
+/**
+ * C++ hello world! program
+ *
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
+
+#include <iostream>
+#include <cstring>
+#include <string>
+#include "../include/perms.h"
+
+using namespace std;
+
+int main()
+{
+    string str;
+    cout << "Enter the file permission: ";
+    cin >> str;
+
+    if (str.length () == 9)
+        cout << "This is the permission for chmod: " << permissionString (str);
+    else
+        cout << str << " is not a valid permission. Permissions should be 9 characters long.";
+
+    return 0;
+}
+
+string permissionString(string perms)
+{
+    string permission;
+    string userPerm = perms.substr(0, 3);
+    string groupPerm = perms.substr(3, 3);
+    string otherPerm = perms.substr(6, 3);
+
+    userPerm = onePermission(userPerm);
+    groupPerm = onePermission(groupPerm);
+    otherPerm = onePermission(otherPerm);
+
+    permission = userPerm + groupPerm + otherPerm;
+    return permission;
+}
+
+string onePermission(string perms)
+{
+    string onePerm;
+    int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+
+//    if (!(contains (perms, "r") || contains (perms, "w")
+//            || contains (perms, "x") || contains (perms, "_")))
+//        return perms;
+//    if (contains (perms, "r"))
+//        placeR = 4;
+//    if (contains (perms, "w"))
+//        placeW = 2;
+//    if (contains (perms, "x"))
+//        placeX = 1;
+//    if (contains (perms, '_'))
+//        place4 = 0;
+
+    if (!(perms.find("r") != string::npos) || !(perms.find("w") != string::npos)
+            || !(perms.find("x") != string::npos) || !(perms.find("_") != string::npos))
+        return perms;
+    if (perms.find("r") != string::npos)
+        place4 = 0;
+    if (perms.find("w") != string::npos)
+        place4 = 0;
+    if (perms.find("X") != string::npos)
+        place4 = 0;
+    if (perms.find("_") != string::npos)
+        place4 = 0;
+
+    place = placeR + placeX + placeW + place4;
+    onePerm = to_string(place);
+    return onePerm;
+}
+
+bool contains(string str, string subst)
+{
+    size_t found = str.find (subst);
+    if (found != string::npos)
+        return true;
+    else
+        return false;
+}

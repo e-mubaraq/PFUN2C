@@ -1,0 +1,6 @@
+
+
+double  average2NumsV(double num1, double num2);
+double  average2NumsA(double *num1, double *num2);
+double  average2NumsR(double &num1, double &num2);
+

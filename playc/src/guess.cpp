@@ -21,8 +21,13 @@ int main()
     cin >> N;
 
     guessNumber(N);
-    isEqual(N);
-    isGreater(N);
+    if(isEqual(N))
+        ;
+    else
+        if(isGreater(N))
+            ;
+        else
+            guessNumber(N);
     return 0;
 }
 
@@ -51,7 +56,7 @@ bool isGreater(int x)
     string ans;
     cout << "Is it higher than "<< guessNumber(x) <<" ? Please enter y or n: ";
     cin >> ans;
-    if (ans.compare("y") != 0)
+    if (ans.compare("y") == 0)
         return true;
     else
         return false;
@@ -63,7 +68,7 @@ bool isEqual(int x)
     string ans;
     cout << "Is it "<< guessNumber(x) <<" ? Please enter y or n: ";
     cin >> ans;
-    if (ans.compare("y") != 0)
+    if (ans.compare("y") == 0)
         return true;
     else
         return false;

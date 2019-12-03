@@ -1,0 +1,40 @@
+/**
+ * C++ computer guess program
+ *
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int N;
+    cout << "I will guess a number from 1 to N. Please enter N: ";
+    cin >> N;
+
+    return 0;
+}
+
+bool isEven(int n)
+{
+    return (n % 2) == 0;
+}
+
+bool isOdd(int n)
+{
+    return (n % 2) == 0;
+}
+
+int guessNumber(int x)
+{
+    if(isEven(x))
+        return x / 2;
+    return 0;
+}
+

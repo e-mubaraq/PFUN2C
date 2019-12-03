@@ -2,10 +2,10 @@
 <launchConfiguration type="org.eclipse.cdt.launch.applicationLaunchType">
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="/home/mubarak/eclipse-workspaceC++/playc/src/playc"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="/home/mubarak/eclipse-workspaceC++/playc/src/playStr"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="playc"/>
-<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.config.gnu.cross.exe.debug.1142945079"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/playc"/>
 </listAttribute>

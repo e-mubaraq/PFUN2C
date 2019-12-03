@@ -5,10 +5,10 @@
  */
 
 #include    <iostream>
-
+#include    "../include/Movie.h"
 using namespace std;
 
-#include    "../include/Movie.h"
+
 
 Movie::Movie()
 {
@@ -90,8 +90,10 @@ void Movie::print()
 
 ostream &operator << (ostream &os, const Movie &out_emp)
 {
-
-  return os;
+    Movie m;
+    cout << m << endl;
+    //cout <<"Movie title: " << _title;
+    return os;
 }
 istream &operator >> (istream &is, Movie &in_emp)
 {

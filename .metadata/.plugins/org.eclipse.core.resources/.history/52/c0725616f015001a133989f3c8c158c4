@@ -1,0 +1,36 @@
+/**
+ * This program uses the PlayCard and CardDeck classes to play a card game
+ *
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
+
+#include    <iostream>
+#include    <cstdlib>
+#include    <string>
+
+#include    "../include/PlayCard.h"
+
+int main(int argc, char **argv)
+{
+    PlayCard card1;
+    PlayCard card2("10", "d");
+    PlayCard c3, c4;
+
+    card1.printCard();
+    card2.printCard();
+
+    c3.promptCard();
+    c4.promptCard();
+
+    if (c3 == c4)
+        cout << "The Cards are Equal: " << c3.printCard();
+    else if (c3 > c4)
+        cout << " High Card: " << c3.printCard() << endl << "Low Card : " << c4.printCard();
+
+
+}

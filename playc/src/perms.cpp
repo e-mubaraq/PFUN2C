@@ -48,21 +48,21 @@ string onePermission(string perms)
 {
     string onePerm;
 
-    if (perms.compare("rwx") != 0)
+    if (perms.compare("rwx") == 0)
         onePerm = "7";
-    else if (perms.compare("rw-") != 0)
+    else if (perms.compare("rw-") == 0)
         onePerm = "6";
-    else if (perms.compare("r-x") != 0)
+    else if (perms.compare("r-x") == 0)
         onePerm = "5";
-    else if (perms.compare("r--") != 0)
+    else if (perms.compare("r--") == 0)
         onePerm = "4";
-    else if (perms.compare("-wx") != 0)
+    else if (perms.compare("-wx") == 0)
         onePerm = "3";
-    else if (perms.compare("-w-") != 0)
+    else if (perms.compare("-w-") == 0)
         onePerm = "2";
-    else if (perms.compare("--x") != 0)
+    else if (perms.compare("--x") == 0)
         onePerm = "1";
-    else if (perms.compare("---") != 0)
+    else if (perms.compare("---") == 0)
         onePerm = "0";
     else
         onePerm = perms;

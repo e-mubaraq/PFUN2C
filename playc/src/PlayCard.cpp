@@ -33,7 +33,12 @@ PlayCard::PlayCard()
  * Parameters:
  *
  * rank    - the rank. It should be "2"-"10", "j", "q", "k", or "a". Upper
- *      case is ok - it is handled in _rankToInt().
+ *      case is ok - it is handled in _rankToInt().#include    <iostream>
+#include    <cstdlib>
+#include    <string>
+
+#include    "../include/PlayCard.h"
+ *
  *
  * suit    - the suit. It should be "s" for spade, "d" for diamond,
  *      "c" for club, or "h" for heart. Upper case is ok - it

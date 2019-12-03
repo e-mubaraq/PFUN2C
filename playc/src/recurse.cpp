@@ -7,6 +7,16 @@
 // Description : Playing with C++, Ansi-style
 //============================================================================
 
+/**
+ * This program demostrates recursion
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
+
 #include <iostream>
 #include "../include/recurse.h"
 

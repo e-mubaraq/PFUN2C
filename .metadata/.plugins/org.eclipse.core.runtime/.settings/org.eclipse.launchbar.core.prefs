@@ -1,8 +1,9 @@
 LaunchTargetManager/configs/playc=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/playc\ (1)=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:playc
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:playc (1),org.eclipse.launchbar.core.descriptorType.default\:playc Debug,org.eclipse.launchbar.core.descriptorType.default\:playc Debug (1),org.eclipse.launchbar.core.descriptorType.default\:playc
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:playc/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:playc/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

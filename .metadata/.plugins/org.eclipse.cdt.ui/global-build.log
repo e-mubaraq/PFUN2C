@@ -25,3 +25,1077 @@ Invoking: Cross G++ Linker
 g++  -o "playc"  ./src/playc.o   
 Finished building target: playc
  
+10:52:13 **** Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+Finished building: ../src/guess.cpp
+ 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+make: *** [src/perms.o] Error 1
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+10:52:15 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+make: *** [src/perms.o] Error 1
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+10:52:49 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+make: *** [src/perms.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:53:00 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+make: *** [src/perms.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:44:26 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+Finished building: ../src/guess.cpp
+ 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+make: *** [src/perms.o] Error 1
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+14:55:49 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+Finished building: ../src/guess.cpp
+ 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘int main()’:
+../src/perms.cpp:24:57: error: ‘permissionString’ was not declared in this scope
+         cout << "This is the permission for chmod: " << permissionString (str);
+                                                         ^~~~~~~~~~~~~~~~
+../src/perms.cpp: In function ‘std::__cxx11::string permissionString(std::__cxx11::string)’:
+../src/perms.cpp:37:16: error: ‘onePermission’ was not declared in this scope
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+../src/perms.cpp:37:16: note: suggested alternative: ‘permission’
+     userPerm = onePermission(userPerm);
+                ^~~~~~~~~~~~~
+                permission
+src/subdir.mk:30: recipe for target 'src/perms.o' failed
+make: *** [src/perms.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:24:05 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+Finished building: ../src/playStr.cpp
+ 
+Building file: ../src/recurse.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/recurse.d" -MT"src/recurse.o" -o "src/recurse.o" "../src/recurse.cpp"
+../src/recurse.cpp: In function ‘int main()’:
+../src/recurse.cpp:24:12: warning: ‘depth’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     result =  recurseAdd(x, depth);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/recurse.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:20: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:25: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:25:53 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:25: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:26:27 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+Finished building: ../src/guess.cpp
+ 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘int main()’:
+../src/playStr.cpp:20:10: error: storage size of ‘str’ isn’t known
+     char str[];
+          ^~~
+../src/playStr.cpp:27:20: error: expected primary-expression before ‘]’ token
+         print1(str[]);
+                    ^
+../src/playStr.cpp:27:9: error: ‘print1’ was not declared in this scope
+         print1(str[]);
+         ^~~~~~
+../src/playStr.cpp:27:9: note: suggested alternative: ‘printf’
+         print1(str[]);
+         ^~~~~~
+         printf
+../src/playStr.cpp:28:9: error: ‘print2’ was not declared in this scope
+         print2(str);
+         ^~~~~~
+../src/playStr.cpp:28:9: note: suggested alternative: ‘printf’
+         print2(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:39:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < strlen(str); i++)
+                     ~~^~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:48:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i < strlen(str))
+            ~~^~~~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/playStr.o' failed
+make: *** [src/playStr.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:27:54 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘int main()’:
+../src/playStr.cpp:27:20: error: expected primary-expression before ‘]’ token
+         print1(str[]);
+                    ^
+../src/playStr.cpp:27:9: error: ‘print1’ was not declared in this scope
+         print1(str[]);
+         ^~~~~~
+../src/playStr.cpp:27:9: note: suggested alternative: ‘printf’
+         print1(str[]);
+         ^~~~~~
+         printf
+../src/playStr.cpp:28:9: error: ‘print2’ was not declared in this scope
+         print2(str);
+         ^~~~~~
+../src/playStr.cpp:28:9: note: suggested alternative: ‘printf’
+         print2(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:39:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < strlen(str); i++)
+                     ~~^~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:48:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i < strlen(str))
+            ~~^~~~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/playStr.o' failed
+make: *** [src/playStr.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:28:10 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘int main()’:
+../src/playStr.cpp:27:9: error: ‘print1’ was not declared in this scope
+         print1(str);
+         ^~~~~~
+../src/playStr.cpp:27:9: note: suggested alternative: ‘printf’
+         print1(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp:28:9: error: ‘print2’ was not declared in this scope
+         print2(str);
+         ^~~~~~
+../src/playStr.cpp:28:9: note: suggested alternative: ‘printf’
+         print2(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:39:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < strlen(str); i++)
+                     ~~^~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:48:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i < strlen(str))
+            ~~^~~~~~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/playStr.o' failed
+make: *** [src/playStr.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:29:50 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘int main()’:
+../src/playStr.cpp:27:9: error: ‘print1’ was not declared in this scope
+         print1(str);
+         ^~~~~~
+../src/playStr.cpp:27:9: note: suggested alternative: ‘printf’
+         print1(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp:28:9: error: ‘print2’ was not declared in this scope
+         print2(str);
+         ^~~~~~
+../src/playStr.cpp:28:9: note: suggested alternative: ‘printf’
+         print2(str);
+         ^~~~~~
+         printf
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:39:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < strlen(str); i++)
+                     ~~^~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:48:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i < strlen(str))
+            ~~^~~~~~~~~~~~~
+make: *** [src/playStr.o] Error 1
+src/subdir.mk:30: recipe for target 'src/playStr.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+19:30:51 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:40:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < strlen(str); i++)
+                     ~~^~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:49:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i < strlen(str))
+            ~~^~~~~~~~~~~~~
+Finished building: ../src/playStr.cpp
+ 
+Building file: ../src/recurse.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/recurse.d" -MT"src/recurse.o" -o "src/recurse.o" "../src/recurse.cpp"
+../src/recurse.cpp: In function ‘int main()’:
+../src/recurse.cpp:24:12: warning: ‘depth’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     result =  recurseAdd(x, depth);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/recurse.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:16: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:25: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:32:57 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+Finished building: ../src/guess.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:33:23 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:33:31 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:33:48 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:34:49 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:50:06 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:50:27 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:51:19 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:43:50 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:45:26 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:48:45 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+../src/perms.cpp: In function ‘std::__cxx11::string onePermission(std::__cxx11::string)’:
+../src/perms.cpp:50:9: warning: unused variable ‘placeR’ [-Wunused-variable]
+     int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+         ^~~~~~
+../src/perms.cpp:50:21: warning: unused variable ‘placeW’ [-Wunused-variable]
+     int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+                     ^~~~~~
+../src/perms.cpp:50:33: warning: unused variable ‘placeX’ [-Wunused-variable]
+     int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+                                 ^~~~~~
+../src/perms.cpp:50:45: warning: unused variable ‘place4’ [-Wunused-variable]
+     int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+                                             ^~~~~~
+../src/perms.cpp:50:57: warning: unused variable ‘place’ [-Wunused-variable]
+     int placeR = 0, placeW = 0, placeX = 0, place4 = 0, place;
+                                                         ^~~~~
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:54:21 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:54:43 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:54:55 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:57:21 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/perms.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/perms.d" -MT"src/perms.o" -o "src/perms.o" "../src/perms.cpp"
+Finished building: ../src/perms.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:32: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:27: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:21:23 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/guess.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/guess.d" -MT"src/guess.o" -o "src/guess.o" "../src/guess.cpp"
+../src/guess.cpp: In function ‘bool isGreater(int)’:
+../src/guess.cpp:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/guess.cpp: In function ‘bool isEqual(int)’:
+../src/guess.cpp:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/guess.cpp
+ 
+Building file: ../src/playStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/playStr.d" -MT"src/playStr.o" -o "src/playStr.o" "../src/playStr.cpp"
+../src/playStr.cpp: In function ‘void print1(char*)’:
+../src/playStr.cpp:42:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 1; i <= strlen(str); i++)
+                     ~~^~~~~~~~~~~~~~
+../src/playStr.cpp: In function ‘void print2(char*)’:
+../src/playStr.cpp:51:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i <= strlen(str))
+            ~~^~~~~~~~~~~~~~
+Finished building: ../src/playStr.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:58:16 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:58:49 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:41 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+makefile:45: recipe for target 'playc' failed
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:01:06 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+makefile:45: recipe for target 'playc' failed
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:105: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:100: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:22:29 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building file: ../src/recurse.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/recurse.d" -MT"src/recurse.o" -o "src/recurse.o" "../src/recurse.cpp"
+../src/recurse.cpp: In function ‘int main()’:
+../src/recurse.cpp:24:12: warning: ‘depth’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     result =  recurseAdd(x, depth);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/recurse.cpp
+ 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:107: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:102: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:23:11 **** Incremental Build of configuration Debug for project playc ****
+make all 
+Building target: playc
+Invoking: Cross G++ Linker
+g++  -o "playc"  ./src/guess.o ./src/perms.o ./src/playStr.o ./src/playc.o ./src/recurse.o   
+./src/perms.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/perms.cpp:19: multiple definition of `main'
+makefile:45: recipe for target 'playc' failed
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playStr.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playStr.cpp:20: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/playc.o: In function `main':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/playc.cpp:25: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:16: multiple definition of `main'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:18: first defined here
+./src/recurse.o: In function `isOdd(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:107: multiple definition of `isOdd(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:35: first defined here
+./src/recurse.o: In function `isEven(int)':
+/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/recurse.cpp:102: multiple definition of `isEven(int)'
+./src/guess.o:/home/mubarak/eclipse-workspaceC++/playc/Debug/../src/guess.cpp:30: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [playc] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

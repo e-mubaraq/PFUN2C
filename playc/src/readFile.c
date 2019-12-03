@@ -9,6 +9,17 @@
  * Author: Cathy Bishop
  *
  */
+/**
+ * This is a program that plays around with C. It demonstrates functions, prototypes,
+ * reading an input file, creating an ADT (struct), #define, command-line arguemtns,
+ * and passing and using pointer arguments.
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
 
 int main(int argc, char *argv[])
 {

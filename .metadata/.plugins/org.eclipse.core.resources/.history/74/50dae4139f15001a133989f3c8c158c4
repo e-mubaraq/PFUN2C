@@ -1,0 +1,105 @@
+#include    <stdio.h>
+
+/*
+ *
+ * This is a program that plays around with C. It demonstrates functions, prototypes,
+ * reading an input file, creating an ADT (struct), #define, command-line arguemtns,
+ * and passing and using pointer arguments.
+ *
+ * Author: Cathy Bishop
+ *
+ */
+
+/*
+ * struct Matrix:
+ *
+ * A Matrix is a 2-dimensional table of integer values, with a maximum of
+ * 100 rows and 100 columns.
+ *
+ */
+
+#define MAXROWS 100
+#define MAXCOLS 100
+
+#include ../include/readMatrix.h
+
+typedef struct
+{
+    int rows, cols;
+    int table[MAXROWS][MAXCOLS];
+} Matrix;
+
+void initMatrix(Matrix *m, int nRows, int nCols);
+void printMatrix(Matrix *m);
+
+int main(int argc, char *argv[])
+{
+    FILE *inf;
+    char *filename = "test1";
+    char line[100];
+
+    Matrix m;
+
+    if (argc > 1)
+        filename = argv[1];
+
+    fprintf(stdout, "In main, argc is %d\n", argc);
+    fprintf(stdout, "File %s\n", filename);
+
+    inf = fopen(filename, "r");
+
+    if (inf != NULL)
+        fprintf(stdout, "Opened file %s\n", filename);
+    else
+        fprintf(stdout, "FAILED  to open file %s\n", filename);
+
+    while(fgets(line, 100, inf) != NULL)
+        fprintf(stdout, "Read line %s\n", line);
+
+    fclose(inf);
+
+    initMatrix(&m, 3, 10);
+    printMatrix(&m);
+
+    return(0);
+}
+
+void initMatrix(Matrix *m, int nRows, int nCols)
+{
+    int i, j;
+
+    m->rows=nRows;
+    m->cols=nCols;
+
+    fprintf(stdout, "rows: %d cols: %d\n", m->rows, m->cols);
+    for (i = 0; i < m->rows; i++)
+    {
+        for (j = 0; j < m->cols; j++)
+        {
+            m->table[i][j] = (i * 10) + j;
+        }
+    }
+
+}
+
+/*
+ * Function printMatrix.
+ *
+ * Prints a Matrix struct.
+ *
+ * The struct must be properly initialized.
+ *
+ */
+
+void printMatrix(Matrix *m)
+{
+    int i, j;
+
+    for (i = 0; i < m->rows; i++)
+    {
+        for (j = 0; j < m->cols; j++)
+        {
+            fprintf(stdout, "matrix[%d, %d]: %d\n", i, j, m->table[i][j]);
+        }
+    }
+}
