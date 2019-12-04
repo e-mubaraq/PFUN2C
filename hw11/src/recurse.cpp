@@ -1,0 +1,154 @@
+
+//============================================================================
+// Name        : Recurse.cpp
+// Author      : Cathy Bishop
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Playing with C++, Ansi-style
+//============================================================================
+
+/**
+ * This program demostrates recursion
+ * @author Mubarak Mikail
+ *
+ * Andrew ID: mmikail
+ *
+ * On my honor, as a Carnegie-Mellon Africa student, I have neither given nor received unauthorized assistance on this work.
+ *
+ */
+
+#include <iostream>
+#include "../include/recurse.h"
+
+using namespace std;
+
+int main ()
+{
+    int x, result, depth;
+    char str[80];
+    string strResult;
+  
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "You entered x: " << x << endl;
+    result =  recurseAdd(x, 5);
+    cout << "recurseAdd(x): " << result << endl;
+
+    result = 0;
+
+    // Write a for-loop to add 1 x number of times, store it in result
+
+    for (int i = 1; i <= x; i++)
+        result = result + 1;
+    cout << "for-loop add: " << result << endl;
+
+    cout << "Enter a string: ";
+    cin >> str;
+    cout << "You entered: " << str << endl;
+    cout << "printReverse(): ";
+    printReverse(str);
+    cout << endl;
+    cout << "reverseString() is: " << reverseString(str) << endl;
+
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "You entered x: " << x << endl;
+    strResult =  recurseXandO(x);
+    cout << "recurseXandO(x): " << strResult << endl;
+
+    return 0;
+}
+
+/*
+ * recurseAdd() uses recursion to add 1 n number of times.
+ *
+ * What are the stopping cases for this algorithm?
+ *
+ * Fix it!
+ *
+ */
+
+int recurseAdd(int n, int depth)
+{
+    for (int i = 0; i < depth; i++)
+        cout << "  ";
+    cout << "depth: " << depth << " " << n << endl;
+
+    if (n <= 0 || n == depth)
+        return 0;
+
+    return 1 + recurseAdd(n - 1, depth + 1);
+}
+
+string reverseString (const char *str)
+{
+    if (str[0] == '\0')
+        return "";
+
+    return reverseString(str + 1) + str[0];
+}
+void printReverse (const char *str)
+{
+    if (str[0] == '\0')
+        return;
+
+    printReverse(str + 1);
+    cout << str[0];
+}
+
+
+string recurseXandO(int n)
+{
+    if (n == 0)
+        return "";
+
+    if (isOdd(n))
+        return "X" + recurseXandO(n - 1);
+    else
+        return "O" + recurseXandO(n - 1);
+}
+
+bool isEven(int n)
+{
+    return (n % 2) == 0;
+}
+
+bool isOdd(int n)
+{
+    return (n % 2) == 0;
+}
+
+// Update the comment at the beginning of each function to describe what it does.
+
+// The mystery1 function -- Fibonacci sequence. Sum of all the Fibonnacci numbers before n
+
+int mystery1(int x)
+{
+    if (x < 2)
+        return 1;
+    else
+        return mystery1(x-1) + mystery1(x-2);
+}
+
+// The mystery2 function -- factorial of n
+
+int mystery2(int x)
+{
+    if (x < 2)
+        return 1;
+    else
+        return x * mystery2(x-1);
+}
+
+// The mystery3 function 
+
+int mystery3(int x, int y)
+{
+    if (y < 0)
+        return -1 * mystery3(x, -y);
+    else if (y == 0)
+         return 0;
+
+    return x + mystery3(x, y-1);
+}
+
