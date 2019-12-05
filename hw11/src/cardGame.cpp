@@ -14,7 +14,7 @@
 #include    <string>
 
 #include    "../include/PlayCard.h"
-#include    "PlayCard.cpp"
+//#include    "PlayCard.cpp"
 using namespace std;
 
 int main(int argc, char **argv)

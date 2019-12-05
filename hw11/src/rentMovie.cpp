@@ -11,7 +11,7 @@
 
 #include    <iostream>
 #include    "../include/Movie.h"
-#include    "Movie.cpp"
+//#include    "Movie.cpp"
 using namespace std;
 
 

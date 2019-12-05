@@ -14,63 +14,52 @@
 
 using namespace std;
 
+int num_of_tries = 0;
 int main()
 {
     int N;
     cout << "I will guess a number from 1 to N. Please enter N: ";
     cin >> N;
+    guessNumber(1, N);
+}
 
-    guessNumber(N);
-    if(isEqual(N))
-        ;
+int guessNumber(int lowNum, int highNum)
+{
+    string ansEqual, ansGreater;
+    int middleNum;
+
+    middleNum = (highNum + lowNum) / 2;
+
+
+    cout << "Is it "<< middleNum <<" ? Please enter y or n: ";
+    cin >> ansEqual;
+
+    if (lowNum == highNum || middleNum <= 1)
+        return 0;
+
+    else if (ansEqual.compare("y") == 0)
+    {
+        num_of_tries++;
+        cout << endl << "I guessed your number in " << num_of_tries << " tries!";
+        return 0;
+    }
+
     else
-        if(isGreater(N))
-            ;
+    {
+        cout << "Is it higher than " << middleNum << " ? Please enter y or n: ";
+        cin >> ansGreater;
+        if (ansGreater.compare("y") == 0)
+        {
+            num_of_tries++;
+            return guessNumber(middleNum + 1, highNum);
+        }
+
         else
-            guessNumber(N);
-    return 0;
-}
+        {
+            num_of_tries++;
+            return guessNumber(lowNum, middleNum - 1);
+        }
 
-bool isEven(int n)
-{
-    return (n % 2) == 0;
-}
+    }
 
-bool isOdd(int n)
-{
-    return (n % 2) == 0;
-}
-
-int guessNumber(int x)
-{
-    if(isEven(x))
-        return x / 2;
-    else
-        return (x / 2) + 1;
-
-    guessNumber(x - 1);
-}
-
-bool isGreater(int x)
-{
-    string ans;
-    cout << "Is it higher than "<< guessNumber(x) <<" ? Please enter y or n: ";
-    cin >> ans;
-    if (ans.compare("y") == 0)
-        return true;
-    else
-        return false;
-    isGreater(x -1);
-}
-
-bool isEqual(int x)
-{
-    string ans;
-    cout << "Is it "<< guessNumber(x) <<" ? Please enter y or n: ";
-    cin >> ans;
-    if (ans.compare("y") == 0)
-        return true;
-    else
-        return false;
-    isEqual(x);
 }

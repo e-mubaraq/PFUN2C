@@ -43,9 +43,8 @@ int main(int argc, char *argv[])
         fprintf(stdout, "Opened file %s\n", filename);
         while(fgets(line, 100, inf) != NULL)
             fprintf(stdout, "Read line %s\n", line);
+        fclose(inf);
     }
-
-    fclose(inf);
 
 
     return(0);

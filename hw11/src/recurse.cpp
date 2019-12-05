@@ -74,7 +74,7 @@ int recurseAdd(int n, int depth)
         cout << "  ";
     cout << "depth: " << depth << " " << n << endl;
 
-    if (n <= 0 || n == depth)
+    if (n <= 0 || n == depth || depth <= 0)
         return 0;
 
     return 1 + recurseAdd(n - 1, depth + 1);
@@ -130,7 +130,7 @@ int mystery1(int x)
         return mystery1(x-1) + mystery1(x-2);
 }
 
-// The mystery2 function -- factorial of n
+// The mystery2 function -- Factorial of n
 
 int mystery2(int x)
 {
@@ -140,7 +140,7 @@ int mystery2(int x)
         return x * mystery2(x-1);
 }
 
-// The mystery3 function 
+// The mystery3 function -- Product of x and y
 
 int mystery3(int x, int y)
 {
