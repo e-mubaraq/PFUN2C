@@ -56,7 +56,4 @@ int main(int argc, char **argv)
         c3.printCard();
     }
 
-
-
-
 }
